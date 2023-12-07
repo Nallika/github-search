@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`\`<ResultItem />\` Should render component 1`] = `
+<div>
+  <div
+    class="sc-bdfCDU gqhEQV"
+  >
+    <a
+      class="sc-gsTDqH gseWtg"
+    />
+    <p
+      class="sc-dlfmHC bAmRbQ"
+    >
+      Stars: undefined
+    </p>
+    <p
+      class="sc-dlfmHC bAmRbQ"
+    >
+      Forks: undefined
+    </p>
+  </div>
+</div>
+`;

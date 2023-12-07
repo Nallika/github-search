@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`\`<SearchBar />\` Should render component 1`] = `
+<div>
+  <section
+    class="sc-bdfCDU kQfDmq"
+  >
+    <input
+      class="sc-gsTDqH crDIUr"
+      placeholder="Enter search query"
+      type="text"
+    />
+    <button
+      class="sc-dlfmHC jjLyAb"
+    >
+      Search
+    </button>
+  </section>
+</div>
+`;

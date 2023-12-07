@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+# Frontend engineer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This assignment is meant to evaluate the React proficiency of full-time engineers. Your code structure should follow design best practices and our evaluation will focus primarily on your ability to follow good design principles and less on correctness and completeness of algorithms. If you are successful, you will have the opportunity to explain design choices and provide justifications for the omitted parts at a face to face interview.
 
-## Available Scripts
+## ⚠️ Do not mention 90 percent of everything or 90poe anywhere on the code or repository name.
+## ⚠️ Do not copy any files from this repository
 
-In the project directory, you can run:
+## Time limits
 
-### `npm start`
+The evaluation result of the test is not linked to how much time you spend on it.
+Successful applications show us that it is possible to cover all of the evaluation points in around 2-4 hours.
+Please DO NOT spend too much time on it. If you haven't completed the task, simply submit as is.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Coding task
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Your task is to write a simple React Application that renders list of react repositories in the table view of your choice or in the following manner:
 
-### `npm test`
+        • <name> - 🌟 <stars> - 🍴 <forks>
+        • react - 🌟 69012 - 🍴 12581
+        • reselect - 🌟 7291 - 🍴 214
+        • redux - 🌟 31705 - 🍴 6581
+        • recompose - 🌟 5671 - 🍴 342
+        ...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Repository name should be a link to the actual GitHub repo.
 
-### `npm run build`
+## Constraints
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Use TypeScript
+- Use React Hooks
+- Feel free to use any boilerplate configuration as `create-react-app`
+- Feel free to use any design framework you are familiar with (i.e. AntD)
+- Do not leave any unused dependencies or scripts
+- Do not mock API response in your repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Nice to have
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you feel you have time to express yourself more here's the list of few points to guide you
 
-### `npm run eject`
+- Pagination
+- Flexible search
+- Full test coverage of your code
+- Dockerize it!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## API
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Use the Github Graphql API v4 to fetch the list of repos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Docs](https://developer.github.com/v4/)
+- [Explorer](https://developer.github.com/v4/explorer/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Evaluation points
 
-## Learn More
+- use of community best practices
+- use of clean code which is self documenting
+- use of domain driven design
+- tests for the main business logic
+- clean and extendable project structure, usage of best practices
+- use of css-in-js
+- use of design frameworks
+- use of code quality checkers such as linters and build tools
+- use of git with appropriate commit messages
+- documentation: README and inline code comments
+- use of docker for building and integration test
+- responses to GitHub issues
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Results
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Please share a git repository with us containing your implementation. 
+As a part of the technical task, we might create GitHub issues to communicate feedback and request improvements.

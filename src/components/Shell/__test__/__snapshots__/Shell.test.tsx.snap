@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`\`<Shell />\` Should render component 1`] = `
+<div>
+  <div>
+    <div
+      class="sc-bdfCDU dvMobY"
+    >
+      <div>
+        SearchBar
+      </div>
+      <div>
+        ResultsList
+      </div>
+    </div>
+  </div>
+</div>
+`;
