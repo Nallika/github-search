@@ -25,7 +25,7 @@ const ResultsList = () => {
     <Wrapper>
       {(loading && !results.length) &&
         <LoaderContainer>
-          <Loader />
+          <Loader data-testid={'loader'} />
         </LoaderContainer>
       }
       {results.length ?
@@ -35,7 +35,7 @@ const ResultsList = () => {
             <ResultItem key={item.node.id} {...item.node} />
           ))}
           <BottomLoaderContainer ref={ref}>
-            <Loader />
+            <Loader data-testid={'bottom-loader'} />
           </BottomLoaderContainer>
         </> : null
       }

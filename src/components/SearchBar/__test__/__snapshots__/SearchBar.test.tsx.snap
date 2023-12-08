@@ -1,17 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`\`<SearchBar />\` Should render component 1`] = `
+exports[`SearchBar \`<SearchBar />\` Should render component 1`] = `
 <div>
   <section
     class="sc-bdfCDU kQfDmq"
   >
     <input
       class="sc-gsTDqH crDIUr"
+      data-testid="search-input"
       placeholder="Enter search query"
       type="text"
     />
     <button
       class="sc-dlfmHC jjLyAb"
+      data-testid="search-button"
     >
       Search
     </button>

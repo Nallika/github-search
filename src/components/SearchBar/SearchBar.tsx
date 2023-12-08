@@ -21,8 +21,13 @@ const SearchBar = () => {
 
   return (
     <Wrapper>
-      <SearchInput type={'text'} onChange={onInputChange} placeholder={`Enter search query`}/>
-      <SearchButton onClick={handleSearch} >{'Search'}</SearchButton>
+      <SearchInput
+        data-testid={'search-input'}
+        type={'text'}
+        onChange={onInputChange}
+        placeholder={`Enter search query`}
+      />
+      <SearchButton data-testid={'search-button'}  onClick={handleSearch} >{'Search'}</SearchButton>
     </Wrapper>
   );
 }

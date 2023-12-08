@@ -1,9 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`\`<ResultsList />\` Should render component 1`] = `
+exports[`ResultsList \`<ResultsList />\` Should render component 1`] = `
 <div>
   <section
     class="sc-gKsecS eogzWd"
-  />
+  >
+    <div
+      class="sc-hKgKIp hcYfTw"
+    >
+      <div
+        class="sc-jSguLX ialiIK"
+        data-testid="loader"
+      />
+    </div>
+  </section>
 </div>
 `;
