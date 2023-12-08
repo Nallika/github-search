@@ -6,6 +6,11 @@ exports[`\`<Shell />\` Should render component 1`] = `
     <div
       class="sc-bdfCDU dvMobY"
     >
+      <header
+        class="sc-gsTDqH irWaMK"
+      >
+        Github search
+      </header>
       <div>
         SearchBar
       </div>

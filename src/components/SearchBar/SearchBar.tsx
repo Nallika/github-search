@@ -4,7 +4,7 @@ import { Wrapper, SearchInput, SearchButton } from './SearchBarStyled';
 import { useSearch } from '../SearchContext';
 
 /**
- *
+ * Display input and button for request new search by provided query
  * @constructor
  */
 const SearchBar = () => {

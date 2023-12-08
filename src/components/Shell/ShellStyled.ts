@@ -5,4 +5,10 @@ const Wrapper = styled.div`
   height: 100%;
 `;
 
-export { Wrapper }
+const Header = styled.header`
+  font-size: 2em;
+  padding-bottom: 20px;
+  text-align: center;
+`
+
+export { Wrapper, Header }

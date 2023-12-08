@@ -4,6 +4,9 @@ export const GET_REPOS = gql`
   query($query: String!, $first: Int!, $after: String) {
     search(query: $query, type: REPOSITORY, first: $first, after: $after) {
       repositoryCount
+      pageInfo {
+        endCursor
+      }
       edges {
         node {
           ... on Repository {

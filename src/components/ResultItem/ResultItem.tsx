@@ -4,7 +4,7 @@ import {SearchItemData} from '../../types';
 import { Wrapper, Link, Text } from './ResultItemStyled';
 
 /**
- *
+ * Display individual search results element
  * @constructor
  */
 const ResultItem: React.FC<SearchItemData> = (data) => (

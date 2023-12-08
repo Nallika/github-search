@@ -16,7 +16,9 @@ export type SearchContextValues = {
   results: SearchItem[],
   count: number,
   loading: boolean,
-  requestSearch: (query: string) => void
+  isEmpty: boolean,
+  requestSearch: (query: string, more?: boolean) => void
+  requestMore: () => void
 }
 
 export type SearchProviderProps = {
