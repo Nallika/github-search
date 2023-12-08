@@ -14,7 +14,8 @@ run `npm test`
 Search item element
 
 ### ResultsList
-Search list, render items, request more result on scroll to bottom
+Search list, render items, request more result on scroll to bottom, like live search
+#### WARNING: live search work's not really best way, I know it, but wasn't able to make it better in short time, so left as it is.
 
 ### SearchBar
 Search input and button, request new search on button click
